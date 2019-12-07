@@ -1,0 +1,14 @@
+body {
+    background-color: white;
+    border:1px solid black;
+}
+
+#grid-container {
+    width:600px;
+    height: 450px;
+    border: 100px solid grey;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    margin: 0 auto;
+}
